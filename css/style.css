@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.circle {
+    border-radius: 50%;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    background-color: bisque;
+}
+
+.mauntain {
+    position: absolute;
+    bottom: -130px;
+    right: 60px;
+    background-color: red;
+    height: 400px;
+    width: 300px;
+    transform: rotate(50deg);
+}
+
+.mauntain-2 {
+    position: absolute;
+    bottom: -110px;
+    background-color: red;
+    height: 300px;
+    width: 100px;
+    transform: rotate(50deg);
+} */
+
+
+/* .container {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 10px;
+    background-color: aqua;
+    border-radius: 140px 140px  0 0 ;
+}
+
+.stair {
+    height: 50px;
+    background-color: rgb(36, 36, 128);
+}
+
+.stair-1 {
+    width: 100px;
+}
+
+.stair-2 {
+    width: 150px;
+}
+
+.stair-3 {
+    width: 200px;
+}
+
+.stair-4 {
+    width: 250px;
+} */
+
+.container {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+
+}
+
+.rectengle {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    transition: all .4s ease-in-out;
+}
+
+.container:hover .rectengle {
+    background-color: blueviolet;
+    transform: rotate(180deg);
+}
+
